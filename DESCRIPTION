@@ -1,0 +1,22 @@
+Package: qdata
+Type: Package
+Title: Quantide's data for R courses
+Version: 0.24
+Date: 2016-05-20
+Authors@R: c(
+    person("Andrea Spano", , "andrea.spano@quantide.com", c("aut")),
+    person("Nicola", "Sturaro", , "nicola.sturaro@quantide.com", c("aut", "cre")),
+    person("Enrico", "Pegoraro", , "enrico.pegoraro@quantide.com", c("aut")),
+    person("Veronica", "Giro", , "veronica.giro@quantide.com", c("aut")),
+    person("Quantide", role = "cph")
+    )
+Description: Quantide's data for R courses
+License: Private
+RoxygenNote: 5.0.1
+NeedsCompilation: no
+Packaged: 2016-07-06 12:40:44 UTC; veronica
+Author: Nicola Sturaro [aut, cre],
+  Enrico Pegoraro [aut],
+  Veronica Giro [aut],
+  Quantide [cph]
+Maintainer: Nicola Sturaro <nicola.sturaro@quantide.com>
