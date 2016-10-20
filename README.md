@@ -5,6 +5,12 @@ Here you can find data for [Raccon Web Book](http://www.quantide.com/raccoon-sta
 
 ## Setup guide
 
+Install `devtools` package if you have not already done it:
+
+```{r}
+install.packages("devtools")
+```
+
 Run this comman line to correctly download and install `qdata` in your pc:
 
 ```{r}
