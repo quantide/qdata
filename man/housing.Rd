@@ -5,7 +5,7 @@
 \title{Frequency Table from a Copenhagen Housing Conditions Survey}
 \format{\code{housing} is a tbl data frame with 72 observations on 5 variables.}
 \source{
-he complete \code{housing} help page is in the \code{MASS} package: \code{\link[MASS]{housing}}
+The complete \code{housing} help page is in the \code{MASS} package: \code{\link[MASS]{housing}}
 }
 \usage{
 data(housing)

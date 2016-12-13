@@ -2,13 +2,13 @@
 % Please edit documentation in R/qdata-data.R
 \name{people}
 \alias{people}
-\title{Weight and Height of 1806 Italian People}
-\format{\code{people} is a tbl data frame with 1806 observations on 4 variables.}
+\title{Weight and Height of 300 Italian People}
+\format{\code{people} is a tbl data frame with 300 observations on 4 variables.}
 \usage{
 data(people)
 }
 \description{
-The \code{people} dataset is related with information on 1806 Italian people: their gender, area, weight and height.
+The \code{people} dataset is related with information on 300 Italian people: their gender, area, weight and height.
 }
 \details{
 The 4 variables of the \code{people} tbl data frame are the following ones:

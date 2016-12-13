@@ -788,19 +788,19 @@ NULL
 
 
 ##################################################################################################################################
-#' Weight and Height of 1806 Italian People
+#' Weight and Height of 300 Italian People
 #' 
 #' 
 #' @name people
 #' 
 #' 
-#' @description The \code{people} dataset is related with information on 1806 Italian people: their gender, area, weight and height.
+#' @description The \code{people} dataset is related with information on 300 Italian people: their gender, area, weight and height.
 #' 
 #'  
 #' @usage data(people)
 #' 
 #' 
-#' @format \code{people} is a tbl data frame with 1806 observations on 4 variables.
+#' @format \code{people} is a tbl data frame with 300 observations on 4 variables.
 #' 
 #' 
 #' @details 
@@ -971,18 +971,18 @@ NULL
 #' @details 
 #' The 12 variables of the \code{uscrime} tbl data frame are the following ones:
 #' \itemize{
-#' \item \code{state} car model (character);
-#' \item \code{land} land (integer);
+#' \item \code{state} Usps states abbreviation (character);
+#' \item \code{land} land area (integer);
 #' \item \code{popu1985} population in 1985 (integer);
-#' \item \code{murd} murder (numeric);
-#' \item \code{rape} rape (numeric);
-#' \item \code{robb} rabbery (numeric);
-#' \item \code{assa} assault (integer);
-#' \item \code{burg} burglary (integer);
-#' \item \code{larc} larceny (integer);
-#' \item \code{auto} auto-theft (integer);
-#' \item \code{reg} ??? (integer);
-#' \item \code{div} ??? (integer).
+#' \item \code{murd} number of murders per 100,000 residents (numeric);
+#' \item \code{rape} number of rapes per 100,000 residents (numeric);
+#' \item \code{robb} number of robberies per 100,000 residents (numeric);
+#' \item \code{assa} number of assaults per 100,000 residents (integer);
+#' \item \code{burg} number of burglaries per 100,000 residents (integer);
+#' \item \code{larc} number of larcenies per 100,000 residents (integer);
+#' \item \code{auto} number of auto-thefts per 100,000 residents (integer);
+#' \item \code{reg} U.S. states region number (integer);
+#' \item \code{div} U.S. states division number (integer).
 #' }
 #' 
 #' 
@@ -2241,7 +2241,7 @@ NULL
 #' }
 #' 
 #' 
-#' @source he complete \code{housing} help page is in the \code{MASS} package: \code{\link[MASS]{housing}}
+#' @source The complete \code{housing} help page is in the \code{MASS} package: \code{\link[MASS]{housing}}
 NULL
 ##################################################################################################################################
 
@@ -2554,5 +2554,100 @@ NULL
 #' 
 #' 
 #' @source 
+NULL
+##################################################################################################################################
+
+##################################################################################################################################
+#' Longitude and Latitude about italian cities
+#' 
+#' 
+#' @name italy
+#' 
+#' 
+#' @description \code{italy} dataset contains information about latitude, longitude, population and region of the most important italian cities. 
+#'  
+#' @usage data(italy)
+#' 
+#' 
+#' @format \code{italy} is a tbl data frame with 56 observations on 5 variables.
+#' 
+#' 
+#' @details 
+#' The 5 variables of the \code{italy} tbl data frame are the following ones:
+#' \itemize{
+#'  \item \code{city} city name (character)
+#'  \item \code{lat} latitude (numeric)
+#'  \item \code{lon} longitude (numeric)
+#'  \item \code{pop} population (numeric)
+#'  \item \code{region} region (character)
+#' }
+#' 
+#' 
+#' @source \url{http://simplemaps.com/resources/world-cities-data}
+NULL
+##################################################################################################################################
+
+##################################################################################################################################
+#' NCCTG Lung Cancer Data
+#' 
+#' 
+#' @name lung
+#' 
+#' 
+#' @description \code{lung} dataset contains information about survival in patients with advanced lung cancer from the North Central Cancer Treatment Group. 
+#' Performance scores rate how well the patient can perform usual daily activities.
+#' 
+#' @usage data(lung)
+#' 
+#' 
+#' @format \code{lung} is a tbl data frame with 228 observations on 10 variables.
+#' 
+#' 
+#' @details 
+#' The 10 variables of the \code{lung} tbl data frame are the following ones:
+#' \itemize{
+#'  \item \code{inst} Institution code (numeric)
+#'  \item \code{time} Survival time in days (numeric)
+#'  \item \code{status} censoring status 1=censored, 2=dead (numeric)
+#'  \item \code{age} Age in years (numeric)
+#'  \item \code{sex} Male=1 Female=2 (numeric)
+#'  \item \code{ph.ecog} ECOG performance score 0=good 5=dead) (numeric)
+#'  \item \code{ph.karno} Karnofsky performance score rated by physician (numeric)
+#'  \item \code{pat.karno} Karnofsky performance score (bad=0-good=100) as rated by patient (numeric)
+#'  \item \code{meal.cal} Calories consumed at meals (numeric)
+#'  \item \code{wt.loss} Weight loss in last six months (numeric)
+#' }
+#' 
+#' 
+#' @source The complete \code{lung} help page is in the \code{Survival} package: \code{\link[Survival]{lung}}
+NULL
+##################################################################################################################################
+
+##################################################################################################################################
+#' Growth of Orange Trees
+#' 
+#' 
+#' @name orange
+#' 
+#' 
+#' @description \code{orange} dataset contains information information about the growth of 5 Orange Trees, 
+#' according to their trunk circumferences.
+#' 
+#' @usage data(orange)
+#' 
+#' 
+#' @format \code{orange} is a tbl data frame with 35 observations on 3 variables.
+#' 
+#' 
+#' @details 
+#' The 3 variables of the \code{orange} tbl data frame are the following ones:
+#' \itemize{
+#'  \item \code{Tree} tree id (character)
+#'  \item \code{age} age of the tree (numeric)
+#'  \item \code{circumference} trunk circumferences (mm) (numeric)
+#' }
+#' 
+#' 
+#' @source The original \code{Orange} dataset is included in \code{Datasets} package.
 NULL
 ##################################################################################################################################
