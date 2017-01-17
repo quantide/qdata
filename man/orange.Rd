@@ -11,7 +11,7 @@ The original \code{Orange} dataset is included in \code{Datasets} package.
 data(orange)
 }
 \description{
-\code{orange} dataset contains information information about the growth of 5 Orange Trees, 
+\code{orange} dataset contains information about the growth of 5 Orange Trees, 
 according to their trunk circumferences.
 }
 \details{
